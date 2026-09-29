@@ -76,6 +76,22 @@
         }
 
         /* HERO */
+        .profile-photo {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid rgba(255,255,255,0.85);
+    box-shadow: 0 10px 35px rgba(0,0,0,0.35);
+}
+
+.profile-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
         .hero {
             min-height: 92vh;
             max-width: 1150px;
@@ -315,7 +331,9 @@
 
     <!-- HERO SECTION -->
     <header class="hero">
-
+        <div class="profile-photo">
+    <img src="profile.jpg" alt="Chakri Adapureddi">
+</div>
         <div class="tag">
             B.Tech CSE • LPU • Class of 2030
         </div>
